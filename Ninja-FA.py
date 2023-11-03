@@ -167,16 +167,13 @@ os.system('clear')
 #-------------------mylover-------------------#
 logo="""
 \033[1;92m
-█
-  ___   _       ___   _   _ _____     ___  _____  _____ 
- / _ \ | |     / _ \ | | | |_   _|   /   |/ __  \|  _  |
-/ /_\ \| |    / /_\ \| |_| | | |    / /| |`' / /'| |/' |
-|  _  || |    |  _  ||  _  | | |   / /_| |  / /  |  /| |
-| | | || |____| | | || | | |_| |_  \___  |./ /___\ |_/ /
-\_| |_/\_____/\_| |_/\_| |_/\___/      |_/\_____/ \___/ 
-                                                        
-                                                        
 
+ █████  ██       █████  ██   ██ ██ 
+██   ██ ██      ██   ██ ██   ██ ██ 
+███████ ██      ███████ ███████ ██ 
+██   ██ ██      ██   ██ ██   ██ ██ 
+██   ██ ███████ ██   ██ ██   ██ ██ 
+                                                                    
 \033[1;91m\033[1;41m\033[1;97m              WELCOME TO Alahi TOOLS               \033[;0m\033[1;91m\033[1;92m
 
 \033[1;92m══════════════════════════════════════════
@@ -350,6 +347,7 @@ def rcrack1(uid,pwx,tl):
     'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
     'accept-language': 'en-US,en;q=0.9',
     'cache-control': 'max-age=0',
+    # 'cookie': 'datr=kEwvZRFl6cMk_BTbhescJERx; sb=kEwvZSI0eCQTNTsLd5Nqvl14; vpd=v1%3B750x400x1.8000000715255737; locale=en_US; wl_cbv=v2%3Bclient_version%3A2348%3Btimestamp%3A1698932892; dpr=1.9790045022964478; m_pixel_ratio=1.8000000715255737; wd=400x750; fr=0zDmRrlWxcIoziNij.AWV-6sPU4lSBanl3fFAg6pbVTZY.BlL0yQ.dx.AAA.0.0.BlRGt0.AWUmV7GfYDo',
     'dpr': '1.8000000715255737',
     'sec-ch-prefers-color-scheme': 'dark',
     'sec-ch-ua': '"Not)A;Brand";v="24", "Chromium";v="116"',
@@ -360,7 +358,7 @@ def rcrack1(uid,pwx,tl):
     'sec-ch-ua-platform-version': '"11.0.0"',
     'sec-fetch-dest': 'document',
     'sec-fetch-mode': 'navigate',
-    'sec-fetch-site': 'none',
+    'sec-fetch-site': 'same-site',
     'sec-fetch-user': '?1',
     'upgrade-insecure-requests': '1',
     'user-agent': 'Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Mobile Safari/537.36',
