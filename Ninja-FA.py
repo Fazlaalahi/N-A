@@ -347,7 +347,6 @@ def rcrack1(uid,pwx,tl):
     'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
     'accept-language': 'en-US,en;q=0.9',
     'cache-control': 'max-age=0',
-    # 'cookie': 'datr=kEwvZRFl6cMk_BTbhescJERx; sb=kEwvZSI0eCQTNTsLd5Nqvl14; vpd=v1%3B750x400x1.8000000715255737; locale=en_US; wl_cbv=v2%3Bclient_version%3A2348%3Btimestamp%3A1698932892; dpr=1.9790045022964478; m_pixel_ratio=1.8000000715255737; wd=400x750; fr=0zDmRrlWxcIoziNij.AWV-6sPU4lSBanl3fFAg6pbVTZY.BlL0yQ.dx.AAA.0.0.BlRGt0.AWUmV7GfYDo',
     'dpr': '1.8000000715255737',
     'sec-ch-prefers-color-scheme': 'dark',
     'sec-ch-ua': '"Not)A;Brand";v="24", "Chromium";v="116"',
@@ -501,7 +500,7 @@ def rcrack1(uid,pwx,tl):
             else:
                 continue
         loop+=1
-        sys.stdout.write('\r%sAFR-KING-%s/%s] [OK-%s][CP-%s]\r'%(bi,loop,tl,len(oks),len(cps))),
+        sys.stdout.write('\r%sALAHI-KING-%s/%s] [OK-%s][CP-%s]\r'%(bi,loop,tl,len(oks),len(cps))),
         sys.stdout.flush()
           
     except:
